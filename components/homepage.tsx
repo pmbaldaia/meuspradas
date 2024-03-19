@@ -1,4 +1,4 @@
-import { Card, Image } from "@nextui-org/react";
+import { Card, Image, Button } from "@nextui-org/react";
 import Link from "next/link";
 
 export default function Homepage() {
@@ -50,7 +50,7 @@ export default function Homepage() {
             />
           </div>
           <div className="flex justify-center">
-            <span className="h4 mt-1">Pedro Alves</span>
+            <span className="h4 mt-1 mb-5">Pedro Alves</span>
           </div>
           <div className="flex justify-center mt-5">
             <Card
@@ -65,7 +65,7 @@ export default function Homepage() {
             >
               <Link
                 href="https://www.lebull.pt/?partner=p70172p70383p7254#registration"
-                className="flex items-center"
+                className="flex items-center justify-center"
                 style={{
                   borderRadius: "10px",
                 }}
@@ -75,6 +75,7 @@ export default function Homepage() {
                     marginRight: "10px",
                     borderRight: "1px solid rgba(0, 0, 0, 0.2)",
                     paddingRight: "10px",
+                    height: "7rem",
                   }}
                 >
                   <Image
@@ -84,7 +85,7 @@ export default function Homepage() {
                     width={100}
                   />
                 </div>
-                <div className="items-center">
+                <div className="items-center text-center">
                   <p style={{ margin: "10px" }}>
                     Deposita já e recebe 100% até 400€
                   </p>
@@ -94,6 +95,29 @@ export default function Homepage() {
                     src="/images/lebull/banners/sports/970x250 Billboard Desktop - Sports.jpg"
                     width={300}
                   />
+                  <div className="mt-3 flex items-center justify-center">
+                    <Button
+                      href="https://www.lebull.pt/?partner=p70172p70383p7254#registration"
+                      className="flex items-center"
+                      style={{
+                        backgroundColor: "#F2A241",
+                        padding: "10px",
+                        borderRadius: "10px",
+                        color: "black",
+                      }}
+                    >
+                      Clica aqui e começa a ganhar{" "}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        fill="#000"
+                        viewBox="0 0 256 256"
+                      >
+                        <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                      </svg>
+                    </Button>
+                  </div>
                 </div>
               </Link>
             </Card>
