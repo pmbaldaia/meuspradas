@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "@nextui-org/react";
 
 export default function PageIllustration() {
   return (
@@ -6,6 +7,7 @@ export default function PageIllustration() {
       className="relative max-w-6xl mx-auto h-0 pointer-events-none"
       aria-hidden="true"
     >
+      <Image src="/images/pedro-alves.png" style={{ opacity: "0.05" }} />
       <svg
         className="absolute top-0 right-0 transform translate-x-1/2 -mr-16"
         width="722"
