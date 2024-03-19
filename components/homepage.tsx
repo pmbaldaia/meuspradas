@@ -98,7 +98,7 @@ export default function Homepage() {
                   <div className="mt-3 flex items-center justify-center">
                     <Button
                       href="https://www.lebull.pt/?partner=p70172p70383p7254#registration"
-                      className="flex items-center"
+                      className="flex items-center button-click-me"
                       style={{
                         backgroundColor: "#F2A241",
                         padding: "10px",
