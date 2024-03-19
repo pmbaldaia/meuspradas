@@ -53,7 +53,7 @@ export default function Homepage() {
           <div className="flex justify-center">
             <span className="h4 mt-1 mb-5">Pedro Alves</span>
           </div>
-          <div className="flex justify-center mt-5">
+          <div className="flex justify-center mt-5 space-x-1 flex-wrap">
             <Card
               isFooterBlurred
               radius="lg"
@@ -102,6 +102,65 @@ export default function Homepage() {
                       className={`flex items-center button-click-me ${styles["button-click-me"]}`}
                     >
                       Clica aqui e começa a ganhar{" "}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 256 256"
+                      >
+                        <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                      </svg>
+                    </Button>
+                  </div>
+                </div>
+              </Link>
+            </Card>{" "}
+            <Card
+              isFooterBlurred
+              radius="lg"
+              className="border-none mt-5 md:mt-0"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.2)",
+                borderRadius: "10px",
+                padding: "15px",
+              }}
+            >
+              <Link
+                href="https://www.bigap.pt"
+                className="flex items-center justify-center"
+                style={{
+                  borderRadius: "10px",
+                }}
+              >
+                <div
+                  style={{
+                    marginRight: "10px",
+                    borderRight: "1px solid rgba(0, 0, 0, 0.2)",
+                    paddingRight: "10px",
+                    height: "7rem",
+                  }}
+                >
+                  <Image
+                    className=""
+                    height={100}
+                    src="/images/bigap.png"
+                    width={100}
+                  />
+                </div>
+                <div className="items-center text-center">
+                  <p style={{ margin: "10px" }}>Visita a minha marca</p>
+                  <Image
+                    className=""
+                    height={250}
+                    src="/images/bannerbigap.png"
+                    width={250}
+                  />
+                  <div className="mt-3 flex items-center justify-center">
+                    <Button
+                      href="https://bigap.pt"
+                      className={`flex items-center button-click-me ${styles["button-click-me"]}`}
+                    >
+                      Visitar bigap.pt{" "}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="18"
