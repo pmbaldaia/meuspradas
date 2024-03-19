@@ -1,5 +1,6 @@
 import { Card, Image, Button } from "@nextui-org/react";
 import Link from "next/link";
+import styles from "./homepage.module.css";
 
 export default function Homepage() {
   return (
@@ -98,20 +99,13 @@ export default function Homepage() {
                   <div className="mt-3 flex items-center justify-center">
                     <Button
                       href="https://www.lebull.pt/?partner=p70172p70383p7254#registration"
-                      className="flex items-center button-click-me"
-                      style={{
-                        backgroundColor: "#F2A241",
-                        padding: "10px",
-                        borderRadius: "10px",
-                        color: "black",
-                      }}
+                      className={`flex items-center button-click-me ${styles["button-click-me"]}`}
                     >
                       Clica aqui e começa a ganhar{" "}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="18"
                         height="18"
-                        fill="#000"
                         viewBox="0 0 256 256"
                       >
                         <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>

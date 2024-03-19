@@ -1,0 +1,12 @@
+.button-click-me {
+  background-color: #f2a241;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+}
+
+.button-click-me:hover {
+  background-color: black;
+  color: white;
+  fill: white;
+}
