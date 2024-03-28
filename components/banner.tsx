@@ -10,7 +10,7 @@ export default function Banner() {
       {bannerOpen && (
         <div className="fixed bottom-0 right-0 w-full md:bottom-2 md:right-2 md:w-auto z-50">
           <div className=" text-slate-50 text-sm p-3 md:rounded shadow-lg relative">
-            <button
+            {/* <button
               className="text-slate-500 absolute top-0 right-0 p-3"
               onClick={() => setBannerOpen(false)}
             >
@@ -29,7 +29,7 @@ export default function Banner() {
                 src="/images/bannerhorizontal.jpg"
                 style={{ width: "30rem" }}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       )}

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Lebull - Pedro Alves",
-  description: "Lebull",
+  title: "Pedro Alves",
+  description: "Pedro Alves",
 };
 
 import Homepage from "@/components/homepage";
