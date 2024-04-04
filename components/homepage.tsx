@@ -25,7 +25,7 @@ export default function Homepage() {
             <span className="h4 mt-1 mb-5">Pedro Alves</span>
           </div>
           <div className="flex justify-center mt-5 space-x-1 flex-wrap">
-            <Card
+            {/*  <Card
               isFooterBlurred
               radius="lg"
               className="border-none mt-5 md:mt-0"
@@ -83,7 +83,7 @@ export default function Homepage() {
                   </div>
                 </div>
               </Link>
-            </Card>
+            </Card> */}
             <Card
               isFooterBlurred
               radius="lg"
