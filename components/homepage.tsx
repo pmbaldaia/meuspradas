@@ -124,7 +124,7 @@ export default function Homepage() {
                       href="https://vemapo.staaqwe.com/pt/casino?partner=p3704p925p1e7a#registration"
                       className={`flex items-center button-click-me ${styles["button-click-me"]}`}
                     >
-                      Clica aqui e regista-te
+                      Quero bónus
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="18"
@@ -137,7 +137,7 @@ export default function Homepage() {
                   </div>
                 </div>
               </Link>
-            </Card>{" "}
+            </Card>
             <Card
               isFooterBlurred
               radius="lg"
@@ -187,6 +187,61 @@ export default function Homepage() {
                       className={`flex items-center button-click-me ${styles["button-click-me"]}`}
                     >
                       Clica aqui e começa a ganhar
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 256 256"
+                      >
+                        <path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path>
+                      </svg>
+                    </Button>
+                  </div>
+                </div>
+              </Link>
+            </Card>
+            <Card
+              isFooterBlurred
+              radius="lg"
+              className="border-none mt-5 md:mt-0"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.2)",
+                borderRadius: "10px",
+                padding: "15px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: "10px",
+              }}
+            >
+              <Link
+                href="https://t.me/pradasbet"
+                className="flex items-center justify-center"
+                style={{
+                  borderRadius: "10px",
+                  textAlign: "center",
+                }}
+              >
+                <div className="items-center justify-center">
+                  <p style={{ margin: "10px" }}>
+                    Canal exclusivo com giveaways e drops de MB Way.
+                  </p>
+                  <div className="flex items-center justify-center">
+                    {" "}
+                    <Image
+                      className=""
+                      height={150}
+                      src="/images/telegram.png"
+                      width={150}
+                    />
+                  </div>
+
+                  <div className="mt-3 flex items-center justify-center">
+                    <Button
+                      href="https://t.me/pradasbet"
+                      className={`flex items-center button-click-me ${styles["button-click-me"]}`}
+                    >
+                      Entra aqui
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="18"

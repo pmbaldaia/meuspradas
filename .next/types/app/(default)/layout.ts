@@ -1,4 +1,4 @@
-// File: /Users/pmbaldaia/Library/CloudStorage/GoogleDrive-webcreaterpt@gmail.com/O meu disco/Webcreater/Projetos/meuspradas.pt/meuspradas/app/(default)/layout.tsx
+// File: /Users/pmbaldaia/Desktop/meuspradas/app/(default)/layout.tsx
 import * as entry from '../../../../app/(default)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
