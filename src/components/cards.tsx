@@ -3,7 +3,6 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 function getRandomColor() {
     return '#' + Math.floor(Math.random() * 16777215).toString(16);
 }
-
 function Cards() {
     const cards = [
         {
