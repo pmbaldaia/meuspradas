@@ -29,7 +29,7 @@ function Cards() {
             title: 'Bónus de boas vindas até € 1000 no 1 depósito',
             text: '25 rodadas grátis com o código: luck77 no primeiro registo - SLOT CAPTAINS TREASURE',
             imgSrc: './img/vemapostar.jpeg',
-            buttonLink: 'https://vemapo.staaqwe.com/pt/casino?partner=p3704p925p1e7a#registration',
+            buttonLink: 'https://www.lebull.pt/?partner=p70172p70383p7254#registration',
             buttonText: 'QUERO BÓNUS',
             cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
         }
