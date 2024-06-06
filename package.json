@@ -31,39 +31,5 @@
   },
   "resolutions": {
     "eslint-plugin-react": "^7.26.1"
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended",
-      "plugin:react/recommended"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-      "ecmaVersion": 2021,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "jsx": true
-      }
-    },
-    "plugins": [
-      "@typescript-eslint",
-      "react",
-      "react-hooks"
-    ],
-    "rules": {
-      "@typescript-eslint/explicit-module-boundary-types": "off",
-      "@typescript-eslint/no-explicit-any": "off",
-      "react/react-in-jsx-scope": "off",
-      "react/prop-types": "off",
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn"
-    },
-    "settings": {
-      "react": {
-        "version": "detect"
-      }
-    }
   }
 }
