@@ -31,6 +31,15 @@ function Cards() {
             buttonLink: 'https://www.lebull.pt/?partner=p70172p70383p7254#registration',
             buttonText: 'QUERO BÓNUS',
             cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
+        },
+        {
+            id: 4,
+            title: 'Pacote de boas vindas 450€',
+            text: '+ 250 RODADAS GRÁTIS',
+            imgSrc: './img/betonred.jpeg',
+            buttonLink: 'https://track.betmenaffiliates.com/visit/?bta=38821&nci=5345&afp10=Casino',
+            buttonText: 'QUERO BÓNUS',
+            cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
         }
     ];
 

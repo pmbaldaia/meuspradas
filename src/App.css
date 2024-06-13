@@ -51,6 +51,17 @@
   background-color: #000 !important;
 }
 
+.button-click-close{
+  color: #fff !important;
+  border:none !important;
+  background-color: #4f4f4f !important;
+}
+
+.button-click-close:hover{
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
 .card-text-button {
   font-size: 10px;
 }
