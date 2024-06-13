@@ -16,15 +16,6 @@ function Cards() {
         },
         {
             id: 2,
-            title: 'Telegram',
-            text: 'Canal exclusivo com giveaways e drops de MB Way.',
-            imgSrc: './img/telegramlogo.jpeg',
-            buttonLink: 'https://t.me/pradasbet',
-            buttonText: 'QUERO BÓNUS',
-            cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
-        },
-        {
-            id: 3,
             title: 'Bónus de boas vindas até € 1000 no 1 depósito',
             text: '25 rodadas grátis com o código: luck07 no primeiro registo - SLOT CAPTAINS TREASURE',
             imgSrc: './img/vemapostar.jpeg',
@@ -33,14 +24,22 @@ function Cards() {
             cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
         },
         {
-            id: 4,
+            id: 3,
             title: 'Pacote de boas vindas 450€',
             text: '+ 250 RODADAS GRÁTIS',
             imgSrc: './img/betonred.jpeg',
             buttonLink: 'https://track.betmenaffiliates.com/visit/?bta=38821&nci=5345&afp10=Casino',
             buttonText: 'QUERO BÓNUS',
             cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
-        }
+        }, {
+            id: 4,
+            title: 'Telegram',
+            text: 'Canal exclusivo com giveaways e drops de MB Way.',
+            imgSrc: './img/telegramlogo.jpeg',
+            buttonLink: 'https://t.me/pradasbet',
+            buttonText: 'QUERO BÓNUS',
+            cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
+        },
     ];
 
     return (
