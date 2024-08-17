@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Popup from './components/popup';
-import Profile from "./components/profile";
+/* import Profile from "./components/profile"; */
 import Cards from "./components/cards";
 import Footer from "./components/footer";
 import './App.css';
