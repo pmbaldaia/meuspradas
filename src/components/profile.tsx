@@ -1,15 +1,15 @@
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+/* import Row from 'react-bootstrap/Row';
 import { Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
-import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from 'react-social-icons'; */
 
 function Profile() {
     const currentDate = new Date().toLocaleDateString('pt-PT', { year: 'numeric', month: 'long', day: 'numeric' });
 
     return (
         <Container fluid className='container-profile'>
-            <Row>
+            {/* <Row>
                 <Col md={12}>
                     <Image
                         className='img-profile'
@@ -24,7 +24,7 @@ function Profile() {
                     <SocialIcon url="https://discord.com/invite/yUxNMyGQZ4" style={{ margin: ' 10px', width: 40, height: 40 }} />
                 </Col>
             </Row>
-
+ */}
             <p className='update-data'>Última atualização: {currentDate}</p>
         </Container>
     );
