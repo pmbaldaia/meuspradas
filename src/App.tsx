@@ -46,7 +46,7 @@ function App() {
       {showPopup && <Popup onClose={handleClosePopup} onConfirm={handleConfirmAge} />}
       {isOver18 && (
         <>
-          <Profile />
+{/*           <Profile /> */}
           <Cards />
           <Footer />
         </>
