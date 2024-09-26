@@ -50,7 +50,7 @@ function Cards() {
                         <Card className="card-custom" style={{ border: `2px solid ${getRandomColor()}` }}>
                             <Row className="align-items-center">
                                 <Col xs={12} md={2} className="text-md-start text-center order-md-1 order-1">
-                                    <Card.Img className="card-image" src={card.imgSrc} style={{ maxWidth: '150px' }} />
+                                    <Card.Img className="card-image" src={card.imgSrc} style={{ maxWidth: '150px', maxHeight: 'fit-content' }} />
                                 </Col>
                                 <Col xs={12} md className="text-center order-md-2 order-2">
                                     <Card.Body>
