@@ -19,8 +19,7 @@ function Cards() {
             title: 'Bónus de boas vindas até € 1000 no 1 depósito',
             text: '25 rodadas grátis com o código: luck07 no primeiro registo - SLOT CAPTAINS TREASURE',
             imgSrc: './img/vemapostar.jpg',
-            /* buttonLink: 'https://vemapo.staaqwe.com/pt/casino?partner=p3704p925p1e7a#registration', */
-            buttonLink: 'https://www.vemabet.com/',
+            buttonLink: 'https://vb.staaqwe.com/pt/casino?partner=p3704p925p1e7a#registration',
             buttonText: 'QUERO BÓNUS',
             cardTextButton: '+18 | T&C APPLY | NEW CUSTOMERS ONLY'
         },
