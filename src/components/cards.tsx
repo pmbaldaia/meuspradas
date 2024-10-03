@@ -7,8 +7,8 @@ function Cards() {
     const cards = [
         {
             id: 1,
-            title: 'LedBull',
-            text: 'Bónus de boas vindas até € 400 no 1 depósito',
+            title: 'Bónus de boas vindas até € 400 no 1 depósito',
+            text: '+ 10 ou 20 € de free bet mediante o valor de deposito',
             imgSrc: './img/Logo_Lebull - Dark.svg',
             buttonLink: 'https://www.lebull.pt/?partner=p70172p70383p7254#registration',
             buttonText: 'QUERO BÓNUS',
@@ -17,7 +17,7 @@ function Cards() {
         {
             id: 2,
             title: 'Bónus de boas vindas até € 1000 no 1 depósito',
-            text: '25 rodadas grátis com o código: luck07 no primeiro registo - SLOT CAPTAINS TREASURE',
+            text: '25 rodadas grátis com o código: luck07 no primeiro registo - CHARMS TREASURES',
             imgSrc: './img/VM logo main (dark).png',
             buttonLink: 'https://vb.staaqwe.com/pt/casino?partner=p3704p925p1e7a#registration',
             buttonText: 'QUERO BÓNUS',
@@ -26,7 +26,7 @@ function Cards() {
         {
             id: 3,
             title: 'Pacote de boas vindas 450€',
-            text: '+ 250 RODADAS GRÁTIS',
+            text: '+ 250 RODADAS GRÁTIS no 1 deposito acima de 10€',
             imgSrc: './img/betonred.jpeg',
             buttonLink: 'https://track.betmenaffiliates.com/visit/?bta=38821&nci=5345&afp10=Casino',
             buttonText: 'QUERO BÓNUS',
